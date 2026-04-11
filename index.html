@@ -3,58 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Maryam Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-
 <body>
-    <1-navigation section>
-    <nav class="navbar navbar-expand-lg bg-dark sticky-top navbar-dark"
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Maryam</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About Me</a>
-        
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#skills">Skills</a></li>
-            <li><a class="dropdown-item" href="#projects">Projects</a></li>
-            <li><a class="dropdown-item" href="#blogs">Blogs</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- Main screen -->
-    <header id=:home" class="hero-section text-center">
-<div class="container">
-    <img scr="" alt="">
-    <h1> class="display-4 fw-bold">
-        Hello My name is Maryam</h1>
-    <p> class="lead text-muted">
-        Fullstack developer | mobile app developer | graphic designer | python developer | robotics</p>
-    <div class="mt-4">
-        <a href="#projects" class="btn btn-primary btn-lg">My projects</a>
-        <a href="#contact" class="btn btn-outline-dark btn-lg">Contact</a>
-    </div>
-    </div>
-    </header>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- Section navigation start -->
+     <section>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">&lt;Maryam&gt;</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact with me</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Features
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+                      <li><a class="dropdown-item" href="#projects">Projects</a></li>
+                      <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+     </section>
+    <!-- Section navigation end -->
+     <!-- home screen start -->
+      <header id="home" class="hero-section text-center">
+        <div class="container">
+            <img src="user1.jpg" class="rounded-circle mb-4 shadow" alt="profile picture">
+            <h1 class="display-4 fw-bold">Hello! I'm Maryam Mammadzada</h1>
+            <p class="lead text-muted">Full stack developer | data analys | software engeener</p>
+            <div class="mt-4">
+                <a href="#projecs" class="btn btn-primary btn-lg">My projects</a>
+                <a href="#projecs" class="btn btn-outline-success btn-lg">Contact me</a>
+            </div>
+        </div>
+      </header>
+     <!-- home screen end -->
+      <section id="skills" class="container py-5">
+        <h2 class="text-center mb-5">skills</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+              <p class="mb-1 fw-bold">Python | Codesters</p>
+              <div class="progress mb-3" style="height: 20px;">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;">
+                    75%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p class="mb-1 fw-bold">Tinkercad</p>
+              <div class="progress mb-3" style="height: 20px;">
+                <div class="progress-bar bg-sucess" role="progressbar" style="width: 81%;">
+                    81%
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+          <h2 class="text-center mb-5">Portfolio</h2>
+          <div class="row g-4">
+              <div class="col-12 col-md-2 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="user1.jpg" alt="project-1" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Codesters </h5>
+                    <p class="card-text text-muted">Python </p>
+                    <span class="badge bg-secondary mb-2">Games</span>
+                    <span class="badge bg-secondary mb-2">Codes</span>
+                  </div>
+                  <div class="card-footer bg-transparent border-0 pb-3 text-center">
+                    <a href="#" class="btn btn-sm btn-outline-success" style="width: 40%;">Demo</a>
+                    <a href="#" class="btn btn-sm btn-outline-secondary"style="width: 40%;"">Github</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-2 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="user1.jpg" alt="project-1" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Design and Branding</h5>
+                    <p class="card-text text-muted">Tinkercad</p>
+                    <span class="badge bg-secondary mb-2">robot tech</span>
+                    <span class="badge bg-secondary mb-2">microbit</span>
+                  </div>
+                  <div class="card-footer bg-transparent border-0 pb-3 text-center">
+                    <a href="#" class="btn btn-sm btn-outline-success" style="width: 40%;">Demo</a>
+                    <a href="#" class="btn btn-sm btn-outline-secondary"style="width: 40%;"">Github</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-2 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="user1.jpg" alt="project-1" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Design and Branding</h5>
+                    <p class="card-text text-muted">Figma | Canva</p>
+                    <span class="badge bg-secondary mb-2">website</span>
+                    <span class="badge bg-secondary mb-2">portfolio</span>
+                  </div>
+                  <div class="card-footer bg-transparent border-0 pb-3 text-center">
+                    <a href="#" class="btn btn-sm btn-outline-success" style="width: 40%;">Demo</a>
+                    <a href="#" class="btn btn-sm btn-outline-secondary"style="width: 40%;"">Github</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-2 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="user1.jpg" alt="project-1" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Factory(TILDA,HTML,CSS)</h5>
+                    <p class="card-text text-muted"> Visual studio code</p>
+                    <span class="badge bg-secondary mb-2">code</span>
+                    <span class="badge bg-secondary mb-2">bootstrap</span>
+                  </div>
+                  <div class="card-footer bg-transparent border-0 pb-3 text-center">
+                    <a href="#" class="btn btn-sm btn-outline-success" style="width: 40%;">Demo</a>
+                    <a href="#" class="btn btn-sm btn-outline-secondary"style="width: 40%;"">Github</a>
+                  </div>
+                </div>
+              </div>
+    </section>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
