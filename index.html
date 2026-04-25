@@ -1,197 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maryam Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  
+  <title>Tourism.com</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Section navigation start -->
-     <section>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">&lt;Maryam/&gt;</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact with me</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Features
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-                      <li><a class="dropdown-item" href="#projects">Projects</a></li>
-                      <li><a class="dropdown-item" href="#skills">Skills</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-     </section>
-    <!-- Section navigation end -->
-     <!-- home screen start -->
-      <header id="home" class="hero-section text-center">
-        <div class="container">
-            <img src="user1.jpg" class="rounded-circle mb-4 shadow" alt="profile picture">
-            <h1 class="display-4 fw-bold">Hello! I'm  Maryam Mammadzada</h1>
-            <p class="lead text-muted">I'm a student</p>
-            <div class="mt-4">
-                <a href="#projecs" class="btn btn-primary btn-lg">My projects</a>
-                <a href="#projecs" class="btn btn-outline-success btn-lg">Contact me</a>
-            </div>
-        </div>
-      </header>
-     <!-- home screen end -->
-      <section id="skills" class="container py-5">
-        <h2 class="text-center mb-5">Technological skills</h2>
-        <div class="row g-4">
-            <div class="col-md-6">
-              <p class="mb-1 fw-bold">Design and Branding | Figma and Canva
-              <div class="progress mb-3" style="height: 20px;">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 90%;">
-                    90%
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <p class="mb-1 fw-bold">HTML,TILDA,STYLE,CSS | visual studio code
-              <div class="progress mb-3" style="height: 20px;">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 55%;">
-                    55%
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <p class="mb-1 fw-bold">Python development | codesters
-              <div class="progress mb-3" style="height: 20px;">
-                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;">
-                    75%
-        </div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="#">Tourism.com</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#places">Most visited places</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#sale">Sale</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="home" class="text-center py-5">
+  <div class="container">
+
+    <img src="download (13).jpeg"
+         class="img-fluid rounded-circle shadow mb-3"
+         style="width: 200px; height: 200px; object-fit: cover;"
+         alt="travel">
+
+    <h1>YOUR TRIPS START HERE ✈️</h1>
+
+  </div>
+</header>
+
+<!-- MOST VISITED PLACES -->
+<section id="places" class="container py-5">
+  <h2 class="text-center mb-5">Most Visited Places</h2>
+
+  <div class="row g-4">
+
+    <div class="col-md-6">
+      <p class="fw-bold">Spain</p>
+      <img src="images (4).jpeg" class="img-fluid rounded shadow mb-2">
+      <div class="progress"><div class="progress-bar bg-success" style="width:80%">80%</div></div>
+    </div>
+
+    <div class="col-md-6">
+      <p class="fw-bold">France</p>
+      <img src="download (13) copy.jpeg" class="img-fluid rounded shadow mb-2">
+      <div class="progress"><div class="progress-bar bg-success" style="width:75%">75%</div></div>
+    </div>
+
+    <div class="col-md-6">
+      <p class="fw-bold">Maldives</p>
+      <img src="download (14).jpeg" class="img-fluid rounded shadow mb-2">
+      <div class="progress"><div class="progress-bar bg-success" style="width:90%">90%</div></div>
+    </div>
+
+    <div class="col-md-6">
+      <p class="fw-bold">Turkey</p>
+      <img src="download (13) copy 2.jpeg" class="img-fluid rounded shadow mb-2">
+      <div class="progress"><div class="progress-bar bg-warning" style="width:65%">65%</div></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SALE -->
+<section id="sale" class="container py-5">
+  <h2 class="text-center mb-5">SALE</h2>
+
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card shadow h-100">
+        <img src="download (13) copy 3.jpeg" class="card-img-top">
+        <div class="card-body">
+          <h5>Dubai</h5>
+          <p>Modern city with deserts and skyscrapers.</p>
+          <span class="badge bg-secondary">950$</span>
+          <span class="badge bg-success">649$</span>
         </div>
       </div>
-        <div class="col-md-6">
-          <p class="mb-1 fw-bold">Arduino smart home development | tinkercad
-              <div class="progress mb-3" style="height: 20px;">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;">
-                    60%
-      </section>
-        <section id="projects">
-        <div class="container">
-          <h2 class="text-center mb-5">Portfolio</h2>
-          <div class="row g-4">
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card h-100 shadow-sm">
-                <img src="image.png" class="card-img-top" alt="project1">
-                <div class="card-body">
-                  <h5 class="card-title">HTML,TILDA,STYLE.CSS</h5>
-                  <p class="card-text text-muted">in this module i am creating websites using index.html and style.css
-                  </p>
-                  <span class="badge bg-secondary mb-2">Visual studio code</span>
-                  <span class="badge bg-secondary mb-2">Tilda</span>
-                </div>
-                <div class="card-footer bg-transparent border-0 pb-3">
-                  <a href="#" class="btn btn-sm btn-outline-success">bootstrap</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card h-100 shadow-sm">
-                <img src="image.png" class="card-img-top" alt="project 1">
-                <div class="card-body">
-                  <h5 class="card-title">Python </h5>
-                  <p class="card-text text-muted">In this module i have created  games using python code.
-                  </p>
-                  <span class="badge bg-secondary mb-2">codesters</span>
-                </div>
-                <div class="card-footer bg-transparent border-0 pb-3">
-                  <a href="#" class="btn btn-sm btn-outline-success">codesters</a>
-                  <a href="#" class="btn btn-sm btn-outline-secondary">python</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card h-100 shadow-sm">
-                <img src="image.png" class="card-img-top" alt="project1">
-                <div class="card-body">
-                  <h5 class="card-title">Arduino home development</h5
-                  <p class="card-text text-muted">In this module i have i used a website called tinkercad and invented things using arduino             
+    </div>
 
-                  </p>
-                  <span class="badge bg-secondary mb-2">tinkercad</span>
-                  <span class="badge bg-secondary mb-2">arduino</span>
-                </div>
-                <div class="card-footer bg-transparent border-0 pb-3">
-                  <a href="#" class="btn btn-sm btn-outline-success">robot tech</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card h-100 shadow-sm">
-                <img src="image.png" class="card-img-top" alt="project1">
-                <div class="card-body">
-                  <h5 class="card-title">Design and Branding</h5>
-                  <p class="card-text text-muted">in this module i created my portfolio using canva and figma
-                  </p>
-                  <span class="badge bg-secondary mb-2">canva</span>
-                  <span class="badge bg-secondary mb-2">figma</span>
-                </div>
-                <div class="card-footer bg-transparent border-0 pb-3">
-                  <a href="#" class="btn btn-sm btn-outline-success">themeforest</a>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="col-md-4">
+      <div class="card shadow h-100">
+        <img src="download (14) copy.jpeg" class="card-img-top">
+        <div class="card-body">
+          <h5>Rome</h5>
+          <p>Beautiful historic city in Italy.</p>
+          <span class="badge bg-secondary">1000$</span>
+          <span class="badge bg-success">699$</span>
         </div>
-      </section>
-      <section id="contact">
-        <div class="container">
-          <h2 class="text-center mb-3">Contact with me</h2>
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <form>
-                <div class="mb-3">
-                  <label class="form-label">Your Name</label>
-                  <input type="text" class="form-control" placeholder="name and surname">
-                </div>
-                <div class="mb-3">
-                  <label class="form-label">Your Email</label>
-                  <input type="email" class="form-control" placeholder="example@site.com">
-                </div>
-                <div class="mb-3">
-                  <label class="form-label">Your Message</label>
-                  <textarea class="form-control" rows="4"></textarea>
-                </div>
-                <button type="submit" class="btn btn-success w-100">Send your Message</button>
-              </form>
-            </div>
-          </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow h-100">
+        <img src="download (15).jpeg" class="card-img-top">
+        <div class="card-body">
+          <h5>Tokyo</h5>
+          <p>Modern tech city with amazing food.</p>
+          <span class="badge bg-secondary">1200$</span>
+          <span class="badge bg-success">849$</span>
         </div>
-      </section>
-      <footer class="bg-dark text-white text-center py-4 mt-4">
-        <div class="container">
-          <div class="mb-3">
-            <a href="#" class="text-white fs-4 me-3"><i class="bi bi-github"></i></a>
-            <a href="#" class="text-white fs-4 me-3"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="text-white fs-4 "><i class="bi bi-telegram"></i></a>
-          </div>
-          <p class="mb-0 text-secondary">&copy; 2026 MaryamDev </p>
-        </div>
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container py-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+
+  <form class="col-md-6 mx-auto">
+
+    <input class="form-control mb-3" placeholder="Your name">
+    <input class="form-control mb-3" placeholder="Email">
+    <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+
+    <button class="btn btn-success w-100">Send</button>
+
+  </form>
+</section>
+
 </body>
 </html>
